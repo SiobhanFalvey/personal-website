@@ -1,7 +1,7 @@
 
 
 p { 
-    color: grey;
+    color: #534D56;
 }
 
 main {
@@ -10,7 +10,7 @@ main {
     margin: auto;
     font-family: 'Amiri', serif;
     text-align: justify;
-    width: 50%;
+    width: 60%;
 }
 
 header {
@@ -18,19 +18,28 @@ header {
     flex-direction: row;
     justify-content: space-around;
     font-family: 'Amiri', serif;
-    padding-left: 110px;   
+      
+    color: #534D56;
+
+}
+h2{
+    color:#1B998B;
 }
 
 .icons {
-    color: grey; 
+    color:#656176; 
 }
 .icons:hover {
-    color: darkgrey; 
+    color:#DECDF5; 
     animation: shake;
 }
 ul {
     list-style-type: none;
-    color: grey;
+    color: #534D56;
     margin: 0;
     padding:0;
+}
+
+body {
+    background-color: #F8F1FF;
 }
