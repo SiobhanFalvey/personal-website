@@ -1,0 +1,36 @@
+
+
+p { 
+    color: grey;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Amiri', serif;
+    text-align: justify;
+    width: 50%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Amiri', serif;
+    padding-left: 110px;   
+}
+
+.icons {
+    color: grey; 
+}
+.icons:hover {
+    color: darkgrey; 
+    animation: shake;
+}
+ul {
+    list-style-type: none;
+    color: grey;
+    margin: 0;
+    padding:0;
+}
