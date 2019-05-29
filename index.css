@@ -1,7 +1,21 @@
+body {
+    background-color: #F8F1FF;
+}
 
+header {
+    width: 350px;
+}
 
-p { 
-    color: #534D56;
+h1 {
+width: 350px;
+font-family: 'Amiri', serif;
+color: #534D56;
+letter-spacing: 5px;
+margin-left: 20px;;
+}
+
+h2 {
+    color:#1B998B;
 }
 
 main {
@@ -13,26 +27,24 @@ main {
     width: 60%;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: 'Amiri', serif;
-      
+p { 
     color: #534D56;
-
-}
-h2{
-    color:#1B998B;
 }
 
-.icons {
-    color:#656176; 
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 85%;
 }
-.icons:hover {
+
+#icons {
+    color:#656176;
+}
+#icons:hover {
     color:#DECDF5; 
-    animation: shake;
 }
+
 ul {
     list-style-type: none;
     color: #534D56;
@@ -40,6 +52,48 @@ ul {
     padding:0;
 }
 
-body {
-    background-color: #F8F1FF;
-}
+#section-one {
+    animation: fadeEffect 5s; 
+ }
+ 
+ @keyframes fadeEffect { 
+    from {opacity: 0;}
+    to {opacity: 1;}
+ }
+
+
+ #section-two {
+    animation: fadeEffect 10s; 
+ }
+ 
+ @keyframes fadeEffect { 
+    from {opacity: 0;}
+    to {opacity: 1;}
+ }
+
+ #section-three {
+    animation: fadeEffect 12s; 
+ }
+ 
+ @keyframes fadeEffect { 
+    from {opacity: 0;}
+    to {opacity: 1;}
+ }
+
+ #section-four {
+    animation: fadeEffect 15s; 
+ }
+ 
+ @keyframes fadeEffect { 
+    from {opacity: 0;}
+    to {opacity: 1;}
+ }
+
+ #section-five {
+    animation: fadeEffect 18s; 
+ }
+ 
+ @keyframes fadeEffect { 
+    from {opacity: 0;}
+    to {opacity: 1;}
+ }
