@@ -1,5 +1,5 @@
 function showTextOne() {
-        if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
             document.getElementById("section-one").style.display = "block";
         } else {
             document.getElementById("section-one").style.display = "none";
@@ -7,7 +7,7 @@ function showTextOne() {
 }
 
 function showTextTwo() {
-        if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 100) {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
             document.getElementById("section-two").style.display = "block";
         } else {
             document.getElementById("section-two").style.display = "none";
@@ -15,7 +15,7 @@ function showTextTwo() {
 }
 
 function showTextThree() {
-    if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         document.getElementById("section-three").style.display = "block";
     } else {
         document.getElementById("section-three").style.display = "none";
@@ -23,7 +23,7 @@ function showTextThree() {
 }
 
 function showTextFour() {
-    if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
         document.getElementById("section-four").style.display = "block";
     } else {
         document.getElementById("section-four").style.display = "none";

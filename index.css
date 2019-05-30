@@ -63,7 +63,7 @@ ul {
 
 
  #section-two {
-    animation: fadeEffect 10s; 
+    animation: fadeEffect 5s; 
  }
  
  @keyframes fadeEffect { 
@@ -72,7 +72,7 @@ ul {
  }
 
  #section-three {
-    animation: fadeEffect 12s; 
+    animation: fadeEffect 5s; 
  }
  
  @keyframes fadeEffect { 
@@ -81,7 +81,7 @@ ul {
  }
 
  #section-four {
-    animation: fadeEffect 15s; 
+    animation: fadeEffect 5s; 
  }
  
  @keyframes fadeEffect { 
@@ -90,7 +90,7 @@ ul {
  }
 
  #section-five {
-    animation: fadeEffect 18s; 
+    animation: fadeEffect 5s; 
  }
  
  @keyframes fadeEffect { 
